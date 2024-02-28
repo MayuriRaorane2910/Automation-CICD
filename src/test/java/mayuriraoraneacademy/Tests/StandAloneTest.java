@@ -24,6 +24,8 @@ public class StandAloneTest {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
+		// new comments are added
+
 		WebDriverManager.firefoxdriver().setup();
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
